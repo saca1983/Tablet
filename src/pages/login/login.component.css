@@ -1,0 +1,90 @@
+.logo img{
+    width: 60vw;
+    height: 60vh;
+    position: absolute;
+    top: -200px;
+    left: 200px;
+    z-index: 1;
+}
+
+.title h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 45px;
+    top: 170px;
+    left: 70px;
+}
+
+.Subtitle p{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    top: 240px;
+    left: 90px;
+}
+
+.mail{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    top: 320px;
+    left: 60px;
+}
+
+.password{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    top: 500px;
+    left: 60px;
+}
+
+.mail2 input{
+    padding: 10px;
+    width: 150%;
+    background-color: #d9d9d95a;
+    box-shadow: 0 4px 8px #00000033;
+    font-size: 1em;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.password2 input{
+    padding: 10px;
+    width: 150%;
+    background-color: #d9d9d95a;
+    box-shadow: 0 4px 8px #00000033;
+    font-size: 1em;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.forget p{
+    position: relative;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    top: 20px;
+    left: 280px;
+}
+
+.button{
+    position: absolute;
+    background-color: #3B82F6;
+    box-shadow: 0 4px 8px #00000033;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    padding: 11px 300px;
+    top: 400px;
+    left: -15px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer; 
+    font-family: 'Quicksand';
+    width: auto;
+    display: inline-block;
+    transition: all 0.100s ease;
+}
