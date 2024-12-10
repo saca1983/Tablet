@@ -13,7 +13,7 @@ export class LayoutComponent {
   constructor(private router: Router) {}
 
   onLogin() {
-    this.router.navigate(['/layout']);
+    this.router.navigate(['/menu']);
   }
 
 }

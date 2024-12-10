@@ -1,0 +1,159 @@
+.name h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 55px;
+    top: 40px;
+    left: 150px; 
+}
+
+.name img{
+    width: 60px;
+    height: 60px; 
+    position: absolute;
+    top: 75px;
+    left: 65px; 
+}
+
+.square{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 650px;
+    height: 135px; 
+    background-color: #EFF6FF; 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square h1{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    top: 3px;
+    left: 100px;
+}
+
+.icon img{
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top: 40px;
+    left: 30px;   
+}
+
+.subtext p{
+    font-family: 'Quicksand';
+    font-size: 23px;
+    color: #787A7C;
+    margin-top: 50px;
+    margin-left: 85px;  
+}
+
+.square2{
+    position: absolute;
+    top: 340px;
+    left: 50px;
+    width: 650px;
+    height: 135px; 
+    background-color: #EFF6FF; 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square2 h1{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    top: 3px;
+    left: 100px;
+}
+
+.icon2 img{
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top: 40px;
+    left: 30px;   
+}
+
+.subtext2 p{
+    font-family: 'Quicksand';
+    font-size: 23px;
+    color: #787A7C;
+    margin-top: 50px;
+    margin-left: 85px; 
+}
+
+.square3{
+    position: absolute;
+    top: 510px;
+    left: 50px;
+    width: 650px;
+    height: 135px; 
+    background-color: #EFF6FF; 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square3 h1{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    top: 3px;
+    left: 100px;
+}
+
+.icon3 img{
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top: 40px;
+    left: 30px;    
+}
+
+.subtext3 p{
+    font-family: 'Quicksand';
+    font-size: 23px;
+    color: #787A7C;
+    margin-top: 50px;
+    margin-left: 85px;  
+}
+
+.square4{
+    position: absolute;
+    top: 690px;
+    left: 50px;
+    width: 650px;
+    height: 135px; 
+    background-color: #EFF6FF; 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square4 h1{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    top: 3px;
+    left: 100px;
+}
+
+.icon4 img{
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top: 40px;
+    left: 30px;    
+}
+
+.subtext4 p{
+    font-family: 'Quicksand';
+    font-size: 23px;
+    color: #787A7C;
+    margin-top: 50px;
+    margin-left: 85px;  
+}

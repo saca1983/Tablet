@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -8,5 +9,23 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
+
+  constructor(private router: Router) {}
+
+  onLogin() {
+    this.router.navigate(['/account']);
+  }
+
+  onLogin2() {
+    this.router.navigate(['/challenges']);
+  }
+
+  onLogin3() {
+    this.router.navigate(['/progress']);
+  }
+
+  onLogin4() {
+    this.router.navigate(['/reward']);
+  }
 
 }
