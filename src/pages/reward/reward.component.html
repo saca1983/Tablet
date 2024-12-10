@@ -1,1 +1,43 @@
-<p>reward works!</p>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<app-header></app-header>
+
+<div class="menu">
+    <app-layout></app-layout>
+</div>
+
+<div class="title">
+    <h1>¡Desafío Completado!</h1>
+    <img src="assets/Star.svg">
+</div>
+
+<div class="square">
+    <h1>¡Felicitaciones!</h1>
+    <img src="assets/Trophy.svg">
+    <p>Has completado el Desafío 10K Semanal</p>
+    <div class="square2">
+        <h1>Recompensas</h1>
+        <div class="subtitle">
+            <p>Insignia "Corredor 10K"</p>
+        </div>
+        <div class="subtitle2">
+            <p>+500 puntos de experiencia</p>
+        </div>
+        <div class="subtitle3">
+            <p>Desbloqueo de nuevos desafíos</p>
+        </div>
+    </div>
+</div>
+
+<button class="button" (click)="onLogin()">
+    <span>Explorar Nuevos Desafíos</span>
+</button>

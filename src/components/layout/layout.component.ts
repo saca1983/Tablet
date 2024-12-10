@@ -2,18 +2,18 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-account',
+  selector: 'app-layout',
   standalone: true,
   imports: [],
-  templateUrl: './account.component.html',
-  styleUrl: './account.component.css'
+  templateUrl: './layout.component.html',
+  styleUrl: './layout.component.css'
 })
-export class AccountComponent {
+export class LayoutComponent {
 
   constructor(private router: Router) {}
 
   onLogin() {
-    this.router.navigate(['/menu']);
+    this.router.navigate(['/layout']);
   }
 
 }

@@ -1,0 +1,114 @@
+.menu {
+    position: absolute;
+    top: 90px;
+}
+
+.title h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 40px;
+    top: 140px;
+    left: 50px;
+}
+
+.title p{
+    color: #4B5563;
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 26px;
+    top: 220px;
+    left: 400px;
+}
+
+.title img{
+    width: 27px;
+    height: 27px; 
+    position: absolute;
+    top: 250px;
+    left: 352px;   
+}
+
+.square{
+    position: absolute;
+    top: 340px;
+    left: 10px;
+    width: 650px;
+    height: 110px; 
+    background-color: #fff; 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square1{
+    position: absolute;
+    top: 1px;
+    left: 50px;
+    width: 650px;
+    height: 130px; 
+    background-color: #EFF6FF; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square1 h1{
+    font-family: 'Inter';
+    margin-left: 70px;
+    font-size: 35px;
+}
+
+.square1 img{
+    width: 40px;
+    height: 40px; 
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+
+.square2{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    width: 650px;
+    height: 110px; 
+    background-color: #fff; 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square2 h1{
+    color: #4B5563;
+    font-family: 'Inter';
+    margin-left: 50px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.square2 p{
+    color: #4B5563;
+    font-family: 'Inter';
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.button{
+    position: absolute;
+    background-color: #3B82F6;
+    box-shadow: 0 4px 8px #00000033;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    padding: 11px 70px;
+    top: 350px;
+    left: 450px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer; 
+    font-family: Quicksand;
+    width: auto;
+    display: inline-block;
+    transition: all 0.100s ease;
+}

@@ -1,0 +1,56 @@
+.button{
+    position: absolute;
+    background-color: #DBEAFE;
+    box-shadow: 0 4px 8px #00000033;
+    color: #2563EB;
+    border: none;
+    border-radius: 13px;
+    padding: 11px 30px;
+    top: 40px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer; 
+    font-family: 'Quicksand';
+    width: auto;
+    display: inline-block;
+    transition: all 0.100s ease;
+}
+
+.button2{
+    position: absolute;
+    background-color: #DBEAFE;
+    box-shadow: 0 4px 8px #00000033;
+    color: #2563EB;
+    border: none;
+    border-radius: 13px;
+    padding: 11px 30px;
+    top: 40px;
+    left: 248px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer; 
+    font-family: 'Quicksand';
+    width: auto;
+    display: inline-block;
+    transition: all 0.100s ease;
+}
+
+.button3{
+    position: absolute;
+    background-color: #DBEAFE;
+    box-shadow: 0 4px 8px #00000033;
+    color: #2563EB;
+    border: none;
+    border-radius: 13px;
+    padding: 11px 30px;
+    top: 40px;
+    left: 460px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer; 
+    font-family: 'Quicksand';
+    width: auto;
+    display: inline-block;
+    transition: all 0.100s ease;
+}

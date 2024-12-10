@@ -6,6 +6,7 @@ import { ProgressComponent } from '../pages/progress/progress.component';
 import { RewardComponent } from '../pages/reward/reward.component';
 import { SectionsComponent } from '../pages/sections/sections.component';
 import { AccountComponent } from '../pages/account/account.component';
+import { MenuComponent } from '../pages/menu/menu.component';
 
 export const routes: Routes = [
 
@@ -16,4 +17,5 @@ export const routes: Routes = [
     {path: 'progress', component: ProgressComponent},
     {path: 'reward', component: RewardComponent},
     {path: 'account', component: AccountComponent},
+    {path: 'menu', component: MenuComponent}
 ];

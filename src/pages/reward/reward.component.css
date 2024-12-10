@@ -1,0 +1,127 @@
+.menu {
+    position: absolute;
+    top: 90px;
+}
+
+.title h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 40px;
+    top: 140px;
+    left: 50px;
+}
+
+.title img{
+    width: 40px;
+    height: 40px; 
+    position: absolute;
+    top: 170px;
+    left: 600px;   
+}
+
+.square{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    width: 680px;
+    height: 700px; 
+    font-family: 'Quicksand';
+    color: #000;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px #00000033;
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 30x;
+    top: 130px;
+    left: 210px;
+}
+
+.square img{ 
+    position: absolute;
+    top: 30px;
+    left: 270px;   
+}
+
+.square p{
+    color: #4B5563;
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 23px;
+    top: 190px;
+    left: 120px;
+}
+
+.square2{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    width: 600px;
+    height: 250px; 
+    font-family: 'Quicksand';
+    color: #000;
+    background-color: #EFF6FF; 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square2 h1{
+    color: #1D4ED8;
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 25x;
+    top: 10px;
+    left: 190px;
+}
+
+.subtitle p{
+    color: #4B5563;
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 22px;
+    top: 75px;
+    left: 185px;
+}
+
+.subtitle2 p{
+    color: #4B5563;
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 22px;
+    top: 120px;
+    left: 160px;
+}
+
+.subtitle3 p{
+    color: #4B5563;
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 22px;
+    top: 170px;
+    left: 145px;
+}
+
+.button{
+    position: absolute;
+    background-color: #3B82F6;
+    box-shadow: 0 4px 8px #00000033;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    padding: 11px 100px;
+    top: 850px;
+    left: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer; 
+    font-family: 'Quicksand';
+    width: auto;
+    display: inline-block;
+    transition: all 0.100s ease;
+}
