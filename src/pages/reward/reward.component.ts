@@ -12,10 +12,4 @@ import { Router } from '@angular/router';
 })
 export class RewardComponent {
 
-  constructor(private router: Router) {}
-
-  onLogin() {
-    this.router.navigate(['/account']);
-  }
-
 }
